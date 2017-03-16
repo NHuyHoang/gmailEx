@@ -1,0 +1,38 @@
+
+<!document html>
+<html>
+<head>
+<title>gmail</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+	<div class="fluid-container" style="margin-left: 100px">
+		<div class="row">
+			<form action="/gaejemail" method="get">
+				<div class="row">
+					<p>To:</p>
+					<input type="text" id="email_to" name="email_to"></input>
+				</div>
+				<div class="row">
+					<p>Subject:</p>
+					<input type="text" id="email_subject" name="email_subject"></input>
+				</div>
+				<div class="row">
+					<p>body:</p>
+					<textarea name="email_body" id="email_body" cols="50" rows="10"></textarea>
+				</div>
+				<button type="submit">submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
